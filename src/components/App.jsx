@@ -1,10 +1,14 @@
 import './app.css';
 import Header from './content/Header';
+import ItemListContainer from './content/ItemListContainer';
 
 const App = () => {
 
   return (
-      <Header/>
+      <>
+        <Header />
+        <ItemListContainer greeting={"¡Bienvenido Usuario!"} />
+      </>
   );
 
 }

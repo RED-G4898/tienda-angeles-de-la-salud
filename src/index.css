@@ -132,10 +132,22 @@
 
 @layer components {
     .navbar {
-        @apply col-span-8 col-start-3 grid w-full grid-cols-1 grid-rows-2 gap-3 bg-zinc-200;
+        @apply col-span-8 col-start-3 w-full flex justify-between items-center flex-nowrap gap-3;
+    }
+
+    .navbar-menu {
+        @apply flex justify-center items-center flex-row w-auto gap-4
     }
 
     .navbar-element {
-        @apply after:content-['|'] after:pl-4 last:after:content-[''] last:after:pl-0;
+        @apply cursor-pointer after:content-['|'] after:pl-4 last:after:content-[''] last:after:pl-0 inline-block;
+    }
+
+    .navbar-element__text {
+        @apply inline-block font-neue font-light text-xl not-italic transition-all duration-700 hover:border-b-2 hover:border-solid hover:border-fasgreen hover:rounded-b-lg hover:bg-slate-400 hover:px-3 hover:pb-3 hover:pt-[2vh] hover:text-slate-200 hover:-translate-y-4;
+    }
+
+    .navbar-element__icon {
+        @apply inline-block transition-all duration-700 hover:border-b-2 hover:border-solid hover:border-fasgreen hover:rounded-b-lg hover:bg-slate-400 hover:text-slate-200 hover:-translate-y-4;
     }
 }
