@@ -129,3 +129,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navbar {
+        @apply col-span-8 col-start-3 grid w-full grid-cols-1 grid-rows-2 gap-3 bg-zinc-200;
+    }
+
+    .navbar-element {
+        @apply after:content-['|'] after:pl-4 last:after:content-[''] last:after:pl-0;
+    }
+}
