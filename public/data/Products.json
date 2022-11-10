@@ -1,0 +1,186 @@
+[
+    {
+        "id": 0,
+        "name": "Paracetamol",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "paracetamol.webp",
+        "category": 1
+    },
+    {
+        "id": 1,
+        "name": "Ibuprofeno",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "ibuprofeno.webp",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "Cetirizina",
+        "description": "30 pastillas de 10mg",
+        "price": "10.00",
+        "image": "cetirizina.webp",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "Amoxicilina",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "amoxicilina.webp",
+        "category": 1
+    },
+    {
+        "id": 4,
+        "name": "Acetaminofen",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "acetaminofen.webp",
+        "category": 1
+    },
+    {
+        "id": 5,
+        "name": "Dipirona",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "dipirona.webp",
+        "category": 1
+    },
+    {
+        "id": 6,
+        "name": "Dexametasona",
+        "description": "30 pastillas de 4mg",
+        "price": "10.00",
+        "image": "dexametasona.webp",
+        "category": 1
+    },
+    {
+        "id": 7,
+        "name": "Acido Acetilsalicilico",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "acidoacetilsalicilico.webp",
+        "category": 1
+    },
+    {
+        "id": 8,
+        "name": "Ciprofloxacino",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "ciprofloxacino.webp",
+        "category": 1
+    },
+    {
+        "id": 9,
+        "name": "Loratadina",
+        "description": "30 pastillas de 10mg",
+        "price": "10.00",
+        "image": "loratadina.webp",
+        "category": 1
+    },
+    {
+        "id": 10,
+        "name": "Omeprazol",
+        "description": "30 pastillas de 20mg",
+        "price": "10.00",
+        "image": "omeprazol.webp",
+        "category": 1
+    },
+    {
+        "id": 11,
+        "name": "Manzanilla",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "manzanilla.webp",
+        "category": 2
+    },
+    {
+        "id": 12,
+        "name": "Valeriana",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "valeriana.webp",
+        "category": 2
+    },
+    {
+        "id": 13,
+        "name": "Melisa",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "melisa.webp",
+        "category": 2
+    },
+    {
+        "id": 14,
+        "name": "Tila",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "tila.webp",
+        "category": 2
+    },
+    {
+        "id": 15,
+        "name": "Menta",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "menta.webp",
+        "category": 2
+    },
+    {
+        "id": 16,
+        "name": "Hierbabuena",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "hierbabuena.webp",
+        "category": 2
+    },
+    {
+        "id": 17,
+        "name": "Uña de gato",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "unadegato.webp",
+        "category": 2
+    },
+    {
+        "id": 18,
+        "name": "Cola de caballo",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "coladecaballo.webp",
+        "category": 2
+    },
+    {
+        "id": 19,
+        "name": "Té verde",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "teverde.webp",
+        "category": 2
+    },
+    {
+        "id": 20,
+        "name": "Té rojo",
+        "description": "30 pastillas de 500mg",
+        "price": "10.00",
+        "image": "terojo.webp",
+        "category": 2
+    },
+    {
+        "id": 21,
+        "name": "Curitas",
+        "description": "15 unidades",
+        "price": "10.00",
+        "image": "curitas.webp",
+        "category": 3
+    },
+    {
+        "id": 22,
+        "name": "Alcohol",
+        "description": "1 L",
+        "price": "10.00",
+        "image": "alcohol.webp",
+        "category": 3
+    }
+]
