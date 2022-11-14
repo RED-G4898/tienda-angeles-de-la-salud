@@ -1,3 +1,4 @@
+import { NavLink, Link } from "react-router-dom";
 import "../app.css";
 import CartWidget from "./CartWidget";
 
@@ -5,12 +6,12 @@ const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<h1 className="text-center font-neue text-2xl font-black text-fasgreen cursor-pointer">
-				Tienda Ángeles de la Salud
+				<Link to="/">Tienda Ángeles de la Salud</Link>
 			</h1>
 			<section className="navbar-menu">
-				<NavbarElement elementTitle="Genéricos" />
-				<NavbarElement elementTitle="Naturales" />
-				<NavbarElement elementTitle="Suministros Médicos" />
+				<NavbarElement elementTitle="Genéricos" linkTo="/category/genericos" />
+				<NavbarElement elementTitle="Naturales" linkTo="/category/naturales" />
+				<NavbarElement elementTitle="Suministros Médicos" linkTo="/category/suministros" />
 			</section>
 			<section className="navbar-menu">
 				<CartWidget/>
@@ -19,10 +20,10 @@ const Navbar = () => {
 	);
 };
 
-const NavbarElement = ({ elementTitle }) => {
+const NavbarElement = (props) => {
     return (
         <div className="navbar-element">
-            <p className="navbar-element__text">{elementTitle}</p>
+            <NavLink className="navbar-element__text" to={props.linkTo}>{props.elementTitle}</NavLink>
         </div>
     );
 }

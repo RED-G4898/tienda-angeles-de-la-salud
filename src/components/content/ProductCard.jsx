@@ -1,22 +1,21 @@
-import { Link } from "react-router-dom";
 import "../app.css";
 import Image from "./Image";
+import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
 	return (
-		<article className="col-span-2 grid h-96 w-full grid-cols-1 grid-rows-[80%_20%] items-center border-solid border-2 rounded-md" key={props.keyNumber}>
-			<section className="row-span-1">
+		<article className="col-span-2 grid h-96 w-full grid-cols-1 items-center border-solid border-2 rounded-md p-4">
+			<section className="row-span-1 grid grid-cols-1 gap-4">
+				<Link to={`/product/${props.id}`}>
+					<div className="w-[60%] mx-auto">
+						<Image imageName={props.imageName} imageAlt={props.imageAlt} />
+					</div>
+				</Link>
 				<div>
-					<Image imageName={props.imageName} imageAlt={props.imageAlt} />
+					<h4 className="text-start text-xxl"><Link to={`/product/${props.id}`}>{props.productName}</Link></h4>
+					<p className="text-start text-base text-black">{props.productDescription}</p>
+					<p className="text-xl text-black">{`$${props.productPrice} mxn`}</p>
 				</div>
-				<div className="">
-					<h4 className="text-start text-xxl">{props.productName}</h4>
-					<p className="text-start text-base">{props.productDescription}</p>
-					<p className="text-xl">{props.productPrice}</p>
-				</div>
-			</section>
-			<section className="row-span-1 bg-fasgreen text-white rounded-lg text-lg">
-				<button>Botón</button>
 			</section>
 		</article>
 	);

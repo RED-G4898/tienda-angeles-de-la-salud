@@ -7,7 +7,7 @@ const Image = (props) => {
         if (!image) {
             return null;
         }
-        return <img src={image} alt={props.imageAlt} />;
+        return <img className="object-cover w-full h-full"  src={image} alt={props.imageAlt} />;
     } catch (error) {
         console.log(`${props.imageName} not found`);
         return null;
